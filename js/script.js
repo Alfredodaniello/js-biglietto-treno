@@ -7,6 +7,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 */
 
 //Chiedere km ed età
+alert("Il Prezzo del biglietto è calcolato con 0.21€ per ogni kilometro percorso. Se sei minorenne avrai il 20% di sconto. Se hai più di 65 anni lo sconto sarà del 40%.")
 const userKm = parseInt(prompt("Quanti kilometri devi percorrere?"));
 const userAge = parseInt(prompt("Quanti anni hai?"));
 //Calcolo prezzo del biglietto

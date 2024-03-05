@@ -20,5 +20,5 @@ if (userAge < 18) {
 };
 //Output con due decimali
 let priceFixed = price.toFixed(2);
-userMessage =("Il prezzo del biglietto è " + priceFixed);
+userMessage =("Il prezzo del biglietto è " + priceFixed + ("€"));
 document.getElementById('price-text').innerHTML = userMessage;

@@ -15,8 +15,10 @@ const ticketPrice = (0.21 * userKm);
 let price = ticketPrice;
 if (userAge < 18) {
     price = ticketPrice - ticketPrice * 0.20;
+    alert("Sei fortunato! Hai il 20% di sconto!");
 } else if (userAge > 65) {
     price = ticketPrice - ticketPrice * 0.40;
+    alert("Sei fortunato! Hai il 40% di sconto!");
 };
 //Output con due decimali
 let priceFixed = price.toFixed(2);
